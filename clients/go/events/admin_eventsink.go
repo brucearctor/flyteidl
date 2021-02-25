@@ -6,12 +6,12 @@ import (
 
 	admin2 "github.com/lyft/flyteidl/clients/go/admin"
 
+	"github.com/flyteorg/flytestdlib/logger"
 	"github.com/golang/protobuf/proto"
 	"github.com/lyft/flyteidl/clients/go/events/errors"
 	"github.com/lyft/flyteidl/gen/pb-go/flyteidl/admin"
 	"github.com/lyft/flyteidl/gen/pb-go/flyteidl/event"
 	"github.com/lyft/flyteidl/gen/pb-go/flyteidl/service"
-	"github.com/lyft/flytestdlib/logger"
 	"golang.org/x/time/rate"
 )
 

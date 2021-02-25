@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/flyteorg/flytestdlib/storage"
 	"github.com/lyft/flyteidl/gen/pb-go/flyteidl/core"
-	"github.com/lyft/flytestdlib/storage"
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/ptypes"

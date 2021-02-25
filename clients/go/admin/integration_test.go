@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/flyteorg/flytestdlib/config"
 	"github.com/lyft/flyteidl/gen/pb-go/flyteidl/admin"
-	"github.com/lyft/flytestdlib/config"
 	"github.com/stretchr/testify/assert"
 )
 
